@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+ 	padding: 0;
+ 	font-family: sans-serif;
+ 	box-sizing: border-box;
+}
+.navbar-container{
+	background: #373737;
+
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.navbar nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	padding: 0px 15px;
+	transition: all 0.3,ms ease-in-out;
+}
+.navbar nav ul li{
+	display: inline-block;
+}
+.navbar nav ul li a:hover{
+	color: #ff0000
+}
